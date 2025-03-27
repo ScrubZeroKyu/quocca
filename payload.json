@@ -1,0 +1,9 @@
+{
+  "name": "SSRFUser",
+  "website": "http://localhost:8000", 
+  "hooks": [{
+    "url": "http://localhost:8000/internal/hit",
+    "events": ["push"],
+    "active": true
+  }]
+}
